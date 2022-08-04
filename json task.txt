@@ -1,0 +1,60 @@
+1. JSON itreate in for loop and for in loop:
+
+var cars=[
+  {
+    company:"MARUTI",
+    model:"ZEN",
+  price:1000000,
+  },
+ 
+           {
+company:"TOYOTA",
+  model:"innova",
+   price:2500000,
+   },
+   
+            {
+company:"wolkswagan",
+  model:"polo gt",
+    price:900000,
+   }]
+ ;
+ 
+
+  for(let i=0;i<cars.length;i++){
+  
+ 
+ console.log(cars[i].model+" "+car[i]. company+" "+cars[i].price);
+ 
+
+ };
+  
+for(let i in cars){
+  
+
+  console.log(i,cars[i]);
+
+
+  };
+
+2.Resume in JASON format:
+  
+var resume={
+   Name:"vishnu pravin.k",
+   Dateofbirth:"18Nov1995",
+   Placeofbirth:"sulur",
+  
+   Civlstatus:"unmarried",
+   Citizenship:"indian",
+   Fathername:"Karthikeyan",
+   Mothername:"jothi",
+   Educationlevel:"B.E-Mechanical Engg",
+   Batch:"2014-2018",
+   Hobbies:"playing cricket and foot ball,reading books,watching movies",
+   
+   Skills:"lead the team,little hardwork,more smartwork",
+   Shorttermgoal:"place in good company",
+   Longtermgoal:"to lead the tire 1 company", 
+
+    };
+ console.log(resume);
